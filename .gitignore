@@ -1,0 +1,25 @@
+﻿# Virtual environment
+.venv/
+venv/
+env/
+
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter
+.ipynb_checkpoints
+
+# Archives
+*.zip
+*.tar.gz
+
+# Large raw datasets (files > 100MB are blocked by GitHub)
+# See data/README.md for download instructions
+data/*.csv
+
+# System files
+.DS_Store
+Thumbs.db
